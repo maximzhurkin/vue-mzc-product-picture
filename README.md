@@ -22,19 +22,19 @@ export default {
   data() {
     return {
       images: [
-				{ id: 1, filename: 'id/1/200' },
-				{ id: 2, filename: 'id/2/200' },
-				{ id: 3, filename: 'id/3/200' }
-			]
+        { id: 1, filename: 'id/1/200' },
+        { id: 2, filename: 'id/2/200' },
+        { id: 3, filename: 'id/3/200' }
+      ]
     };
   },
 };
 ```
 ```html
 <vue-mzc-product-picture
-	baseUrl="https://picsum.photos/"
-	:width="200"
-	:height="200"
-	:items="images"
+  baseUrl="https://picsum.photos/"
+  :width="200"
+  :height="200"
+  :items="images"
 />
 ```
