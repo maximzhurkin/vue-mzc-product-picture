@@ -1,0 +1,45 @@
+.vue-mzc-product-picture
+	&__images
+		margin-bottom 8px
+		position relative
+	&__items
+		display block
+		position relative
+		overflow hidden
+		background-color #eee
+	&__item
+		display none
+		&--active
+			display block
+	&__item,
+	&__areas
+		top 0
+		left 0
+		right 0
+		bottom 0
+		position absolute
+	&__areas
+		display flex
+		justify-content stretch
+	&__area
+		width auto
+		flex 1
+		height 100%
+	&__image
+		display block
+		width 100%
+		max-width 100%
+		height auto
+	&__dots
+		display flex
+		justify-content center
+	&__dot
+		margin-right 5px
+		width 100%
+		max-width 16px
+		height 2px
+		background-color #eee
+		&--active
+			background-color #000
+		&:last-child
+			margin-right 0
