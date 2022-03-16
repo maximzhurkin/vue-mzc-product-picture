@@ -12,8 +12,8 @@ npm install vue-mzc-product-picture --save
 
 ## Usage
 ```js
-import VueMzcProductPicture from "vue-mzc-product-picture";
-import "vue-mzc-product-picture/vue-mzc-product-picture.css";
+import { VueMzcProductPicture } from "vue-mzc-product-picture";
+import "vue-mzc-product-picture/dist/vue-mzc-product-picture.css";
 
 export default {
   components: {
